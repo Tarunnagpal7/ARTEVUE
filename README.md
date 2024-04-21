@@ -1,9 +1,13 @@
-The Artevue-inspired website offers a seamless art-buying experience. Built with HTML, CSS, JavaScript, PHP, and MySQL, it boasts a secure login system with signup validation . 
+*The Artevue-inspired website offers a seamless art-buying experience. Built with HTML, CSS, JavaScript, PHP, and MySQL, it boasts a secure login system with signup validation . 
 Artworks are dynamically sourced from PHP databases, each accompanied by detailed descriptions and images. Profiles feature
  order histories for easy reference.
-Artists Profile is also added in which PHP can fetch the artwork of artists.
+Artists Profile is also added in which PHP can fetch the artwork of artists.*
 
-Certainly, here are the modules along with their descriptions,:
+
+https://github.com/Tarunnagpal7/ARTEVUE/assets/116642663/4e98b6aa-63bc-4ca5-992c-46c1322bdbc0
+
+
+*Certainly, here are the modules along with their descriptions:*
 
 1. **Home Page**:
    - Description: The central hub of the website welcomes visitors with a captivating display of featured artworks and artist highlights. Users can navigate seamlessly to explore various sections of the site or delve into specific artworks and artists.
@@ -29,8 +33,8 @@ Certainly, here are the modules along with their descriptions,:
 8. **Sign-Up Page**:
    - Description: The sign-up page allows new users to create accounts and join the platform. It features a registration form where users can input their details, including username, email address, password, and any additional required information. Validation scripts ensure the accuracy and security of user-provided data, enhancing the registration process.
 
-DEPLOYEENT :
-   XAMPP simplifies the process of developing and testing dynamic web applications locally before deploying them to a live server. It bundles together several components necessary for web development, including:
+**DEPLOYMENT** :
+   *XAMPP simplifies the process of developing and testing dynamic web applications locally before deploying them to a live server. It bundles together several components necessary for web development, including:*
 
 Apache: XAMPP includes the Apache HTTP Server, which serves as the web server software. Apache processes HTTP requests from clients (browsers) and delivers web pages and other content.
 MySQL: XAMPP comes pre-installed with MySQL, a popular relational database management system. MySQL is used to store and manage the website's data, such as user information, artwork details, and orders.
@@ -38,7 +42,8 @@ PHP: XAMPP includes PHP, a server-side scripting language widely used for web de
 Perl: XAMPP also includes Perl, a programming language commonly used for tasks such as text processing and system administration. While not as commonly used in web development as PHP, Perl can be useful for certain server-side tasks.
 Deployment on localhost:
 
-Deploying your website on localhost using XAMPP involves the following steps:
+
+*Deploying your website on localhost using XAMPP involves the following steps:*
 
 Installation: Download and install the XAMPP package compatible with your operating system (Windows, macOS, Linux).
 Starting the Servers: Launch the XAMPP control panel and start the Apache and MySQL servers. These servers will run locally on your computer, allowing you to access your website via a web browser.
@@ -47,7 +52,7 @@ Database Configuration: Use phpMyAdmin, a web-based administration tool included
 Accessing Your Website: Open a web browser and navigate to "localhost" or "127.0.0.1" followed by the name of your website's directory in the "htdocs" folder. You should see your website running locally, and you can interact with it just like you would on a live server.
 Deploying your website on localhost using XAMPP provides a convenient and efficient way to develop, test, and debug your web applications in a controlled environment before making them accessible to the public on a live server.
 
-Using PHPMyAdmin:
+*Using PHPMyAdmin:*
 
 To create tables and add data using the database.sql file in PHPMyAdmin, follow these steps:
 
