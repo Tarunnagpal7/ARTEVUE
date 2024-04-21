@@ -1,0 +1,92 @@
+.footer {
+    width: 100%;
+    background-color: rgb(15, 14, 59);
+  }
+  
+  .ft_content {
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+  
+  }
+  
+  .ft {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+  }
+  
+  .ft h1 {
+    background-color: transparent;
+    color: #FFDEE9;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-bottom: 2px solid white;
+    box-shadow: 0 20px 40px -14px rgba(226, 209, 209, 0.25);
+    margin-bottom: 5px;
+  }
+  
+  .ft a {
+    color: #F7EEDD;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .ft_about {
+    background-color: transparent;
+    margin: 30px;
+    flex-direction: column;
+    display: flex;
+    margin: 50px
+  }
+  
+  .ft_about h2 {
+    background-color: transparent;
+    color: #F7EEDD;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-bottom: 2px solid white;
+    box-shadow: 0 20px 40px -14px rgba(226, 209, 209, 0.25);
+    margin-bottom: 5px;
+  }
+  
+  .ft_about a {
+    color: #F7EEDD;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    background-color: transparent;
+    padding: 0.2rem;
+    margin: 2px;
+    text-decoration: none;
+  }
+  
+  .ft_company {
+    background-color: transparent;
+    margin: 0px 0px 0px 650px;
+  }
+  
+  .ft_company p {
+    color: #F7EEDD;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    font-weight: 400;
+    background-color: transparent;
+    padding: 0.2rem;
+  }
+  @media (max-width:600px) {
+    .hid{
+      display:none;
+    }
+    .ft_company{
+      margin: 0px 0px 0px 124px;
+    }
+  }  

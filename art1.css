@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #F7EEDD;
+    box-sizing: border-box;
+  }
+  
+  body {
+    scrollbar-gutter: stable both-edges;
+    width: 100%;
+  }
+
+/* cards */
+.filter-container{
+
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.arts{
+  margin-top: 50px;
+  margin-left: 70px;
+}
+  /* main {
+    
+    max-width: 1300px;
+    margin: 0 auto;
+  } */
+  
+  .card_image{
+    height: 400px;
+    width: 300px;
+  }
+  .buttons{
+    display: flex;
+    margin:5px;
+    background-color: transparent;
+  }
+  .heart{
+    margin: 5px;
+  }
+  .btn {
+    color: rgb(15, 14, 59);
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(24, 12, 12, 0.2);
+    background: transparent;
+    margin: 5px;
+  }
+  .btn:hover,
+  .view_btn:hover,
+  .btn_art:hover {
+    background-color: rgba(28, 14, 14, 0.12);
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+  }
+  .card {
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex-wrap: wrap;
+  }
+  
+  .card_content {
+    padding: 10px;
+    background-color: #B5FFFC;
+    background-image: linear-gradient(0deg, #ecf2f2 0%, #d4e1ed 100%);
+  }
+  
+  .card_title {
+    color: rgb(15, 14, 59);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+    background-color: transparent;
+  }
+  
+  .artist_title {
+    color: rgb(15, 14, 59);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 10px 90px;
+    padding: auto;
+    background-color: transparent;
+  
+  }
+  
+  .card_text {
+    color: rgb(15, 14, 59);
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    background-color: transparent;
+  }
+ .card_info{
+  color: rgb(15, 14, 59);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: transparent;
+ }
+  
+ .cards_item {
+  display: flex;
+  padding: 1rem 0.5rem;
+  height: 100%;
+  width: 350px;
+}
+
+.card_image:hover{
+  border : 1px solid rgb(15, 14, 59)
+}
+  @media (max-width: 600px) {
+    .cards {
+      flex-direction: column;
+    }
+  
+  .arts{
+    margin-top: 100px;
+    margin-left:10px
+  }
+  .cards_item {
+   width: 300px;
+  }
+  .card_image{
+    height: 200px;
+    width: 200px;
+  }
+}
+  
+  
